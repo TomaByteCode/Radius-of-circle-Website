@@ -108,3 +108,11 @@ footer {
   padding-top: 20px;
   font-size: 25px;
 }
+
+div {
+  font-family: sans-serif;
+  background-color: #1899D6;
+  margin: 0px;
+  padding: 5px;
+  color: white;
+}
