@@ -18,4 +18,10 @@ document.getElementById("mySubmit2").onclick = function(){
     circumference_square = a * 4 
     document.getElementById("myH32").textContent = circumference_square + "cm"}
 
+document.getElementById("mySubmit3").onclick = function(){
+    a = document.getElementById("myText3").value
+    a = Number(a)
+    content = a * a 
+    document.getElementById("myH33").textContent = content + "cm2"
+}
 
